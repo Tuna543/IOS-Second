@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26473D12958DB7F00BE0737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26473D02958DB7F00BE0737 /* AppDelegate.swift */; };
+		A26473D32958DB7F00BE0737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26473D22958DB7F00BE0737 /* SceneDelegate.swift */; };
+		A26473D52958DB7F00BE0737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26473D42958DB7F00BE0737 /* ViewController.swift */; };
+		A26473D82958DB7F00BE0737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26473D62958DB7F00BE0737 /* Main.storyboard */; };
+		A26473DB2958DB7F00BE0737 /* Cardiac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A26473D92958DB7F00BE0737 /* Cardiac.xcdatamodeld */; };
+		A26473DD2958DB8000BE0737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26473DC2958DB8000BE0737 /* Assets.xcassets */; };
+		A26473E02958DB8000BE0737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26473DE2958DB8000BE0737 /* LaunchScreen.storyboard */; };
+		A26473E82958DC5300BE0737 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26473E72958DC5300BE0737 /* LoginViewController.swift */; };
+		A26473EA2958DCE400BE0737 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26473E92958DCE400BE0737 /* CreateViewController.swift */; };
+		A26473EC2958DD5D00BE0737 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26473EB2958DD5D00BE0737 /* GoogleService-Info.plist */; };
+		A26473EF2958DDF100BE0737 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A26473EE2958DDF100BE0737 /* FirebaseAuth */; };
+		A28622EF295990B400E20FF7 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28622EE295990B400E20FF7 /* RecordViewController.swift */; };
+		A28622F52959B51900E20FF7 /* APIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28622F42959B51900E20FF7 /* APIViewController.swift */; };
+		A28622F72959D21A00E20FF7 /* CoronaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28622F62959D21A00E20FF7 /* CoronaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A26473CD2958DB7F00BE0737 /* Cardiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26473D02958DB7F00BE0737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A26473D22958DB7F00BE0737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A26473D42958DB7F00BE0737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26473D72958DB7F00BE0737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26473DA2958DB7F00BE0737 /* Cardiac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cardiac.xcdatamodel; sourceTree = "<group>"; };
+		A26473DC2958DB8000BE0737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26473DF2958DB8000BE0737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26473E12958DB8000BE0737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26473E72958DC5300BE0737 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A26473E92958DCE400BE0737 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		A26473EB2958DD5D00BE0737 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A28622EE295990B400E20FF7 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		A28622F42959B51900E20FF7 /* APIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewController.swift; sourceTree = "<group>"; };
+		A28622F62959D21A00E20FF7 /* CoronaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26473CA2958DB7F00BE0737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26473EF2958DDF100BE0737 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26473C42958DB7F00BE0737 = {
+			isa = PBXGroup;
+			children = (
+				A26473CF2958DB7F00BE0737 /* Cardiac */,
+				A26473CE2958DB7F00BE0737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26473CE2958DB7F00BE0737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26473CD2958DB7F00BE0737 /* Cardiac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26473CF2958DB7F00BE0737 /* Cardiac */ = {
+			isa = PBXGroup;
+			children = (
+				A26473D02958DB7F00BE0737 /* AppDelegate.swift */,
+				A26473D22958DB7F00BE0737 /* SceneDelegate.swift */,
+				A26473D42958DB7F00BE0737 /* ViewController.swift */,
+				A26473D62958DB7F00BE0737 /* Main.storyboard */,
+				A28622F62959D21A00E20FF7 /* CoronaViewController.swift */,
+				A28622F42959B51900E20FF7 /* APIViewController.swift */,
+				A28622EE295990B400E20FF7 /* RecordViewController.swift */,
+				A26473E92958DCE400BE0737 /* CreateViewController.swift */,
+				A26473E72958DC5300BE0737 /* LoginViewController.swift */,
+				A26473DC2958DB8000BE0737 /* Assets.xcassets */,
+				A26473DE2958DB8000BE0737 /* LaunchScreen.storyboard */,
+				A26473E12958DB8000BE0737 /* Info.plist */,
+				A26473EB2958DD5D00BE0737 /* GoogleService-Info.plist */,
+				A26473D92958DB7F00BE0737 /* Cardiac.xcdatamodeld */,
+			);
+			path = Cardiac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26473CC2958DB7F00BE0737 /* Cardiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26473E42958DB8000BE0737 /* Build configuration list for PBXNativeTarget "Cardiac" */;
+			buildPhases = (
+				A26473C92958DB7F00BE0737 /* Sources */,
+				A26473CA2958DB7F00BE0737 /* Frameworks */,
+				A26473CB2958DB7F00BE0737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardiac;
+			packageProductDependencies = (
+				A26473EE2958DDF100BE0737 /* FirebaseAuth */,
+			);
+			productName = Cardiac;
+			productReference = A26473CD2958DB7F00BE0737 /* Cardiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26473C52958DB7F00BE0737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A26473CC2958DB7F00BE0737 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A26473C82958DB7F00BE0737 /* Build configuration list for PBXProject "Cardiac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26473C42958DB7F00BE0737;
+			packageReferences = (
+				A26473ED2958DDF100BE0737 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A26473CE2958DB7F00BE0737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26473CC2958DB7F00BE0737 /* Cardiac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26473CB2958DB7F00BE0737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26473E02958DB8000BE0737 /* LaunchScreen.storyboard in Resources */,
+				A26473EC2958DD5D00BE0737 /* GoogleService-Info.plist in Resources */,
+				A26473DD2958DB8000BE0737 /* Assets.xcassets in Resources */,
+				A26473D82958DB7F00BE0737 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26473C92958DB7F00BE0737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26473D52958DB7F00BE0737 /* ViewController.swift in Sources */,
+				A26473D12958DB7F00BE0737 /* AppDelegate.swift in Sources */,
+				A28622F72959D21A00E20FF7 /* CoronaViewController.swift in Sources */,
+				A26473EA2958DCE400BE0737 /* CreateViewController.swift in Sources */,
+				A28622F52959B51900E20FF7 /* APIViewController.swift in Sources */,
+				A28622EF295990B400E20FF7 /* RecordViewController.swift in Sources */,
+				A26473D32958DB7F00BE0737 /* SceneDelegate.swift in Sources */,
+				A26473E82958DC5300BE0737 /* LoginViewController.swift in Sources */,
+				A26473DB2958DB7F00BE0737 /* Cardiac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A26473D62958DB7F00BE0737 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26473D72958DB7F00BE0737 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26473DE2958DB8000BE0737 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26473DF2958DB8000BE0737 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26473E22958DB8000BE0737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A26473E32958DB8000BE0737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26473E52958DB8000BE0737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cardiac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuna.Cardiac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26473E62958DB8000BE0737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cardiac/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuna.Cardiac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26473C82958DB7F00BE0737 /* Build configuration list for PBXProject "Cardiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26473E22958DB8000BE0737 /* Debug */,
+				A26473E32958DB8000BE0737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26473E42958DB8000BE0737 /* Build configuration list for PBXNativeTarget "Cardiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26473E52958DB8000BE0737 /* Debug */,
+				A26473E62958DB8000BE0737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A26473ED2958DDF100BE0737 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A26473EE2958DDF100BE0737 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A26473ED2958DDF100BE0737 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A26473D92958DB7F00BE0737 /* Cardiac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A26473DA2958DB7F00BE0737 /* Cardiac.xcdatamodel */,
+			);
+			currentVersion = A26473DA2958DB7F00BE0737 /* Cardiac.xcdatamodel */;
+			path = Cardiac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A26473C52958DB7F00BE0737 /* Project object */;
+}
